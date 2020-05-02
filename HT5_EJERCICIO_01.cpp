@@ -4,6 +4,7 @@ Realice un programa que genere la venta de compra de un terreno/casa/departament
 #include <fstream>
 #include <stdlib.h>
 
+//Prueba de commit desde consola....
 using namespace std;
 struct reg{
 	int		categoria;
@@ -41,8 +42,8 @@ int main(){
  } 	while (operacion!=3);
  	return (0);				}
 
-/*Dada la categoría, zona, tipo y el área del terreno o inmueble
- determine a cuánto asciende el monto que deberá pagar para comprar el inmueble */
+/*Dada la categorï¿½a, zona, tipo y el ï¿½rea del terreno o inmueble
+ determine a cuï¿½nto asciende el monto que deberï¿½ pagar para comprar el inmueble */
 void calculo(){
 	int 	zcategoria;
 	int 	zzona;
@@ -125,7 +126,7 @@ ofstream grabararchivo;
 
 void reporte(){
 /*generar un reporte de el total vendido 
-por categoría, zona y tipo de inmueble*/
+por categorï¿½a, zona y tipo de inmueble*/
 
 	ifstream archivo; //leer archivo;
 	fflush(stdin); //borrar el buffer existente
